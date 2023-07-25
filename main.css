@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.menu {
+    padding: 15px;
+}
+
+header {
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+.sobreALoja {
+    display: flex;
+}
+
+.sobreALoja img {
+    height: 300px;
+}
+
+.sobre {
+    margin-left: 40px;
+}
+
+.sobre p {
+    margin-top: 40px;
+}
+
+h2 {
+    color: blue;
+    padding-bottom: 15px;
+    border-bottom: solid 3px blue;
+}
+
+.produtos h2 {
+    margin-top: 60px;
+}
